@@ -307,10 +307,22 @@ Adicione a estilização do conteúdo da página abaixo*/
     width: 20px;
 }
 
+.recipelabel a{
+    color: #236828;
+}
+
 .readmore{
     display: flex;
     align-items: center;
     height: 10px;
+}
+
+.readmore a{
+    color: #707070;
+}
+
+.description{
+    color: #707070;
 }
 
 .readmore img{
