@@ -159,6 +159,8 @@ a{
 
 Adicione a estilização do conteúdo da página abaixo*/
 
+/* Menu */
+
 .mainback{
     background-color: #F0F0F0;
     display: flex;
@@ -173,11 +175,6 @@ Adicione a estilização do conteúdo da página abaixo*/
     display: grid;
     grid-template-columns: 290px auto ;
     height: 900px;
-}
-
-.content{
-    background-color: blueviolet;
-    margin-left: 20px;
 }
 
 .menubox{
@@ -242,4 +239,82 @@ Adicione a estilização do conteúdo da página abaixo*/
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+}
+
+/* Fim do menu */
+
+.content{
+    margin-left: 20px;
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 1px rgba(50, 50, 50, 0.75);
+}
+
+.contentframe{
+    margin: 20px;
+}
+
+.pagelabel{
+    font-size: 20pt;
+    color: #236828;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipecard{
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    -webkit-box-shadow: 2px 2px 5px 1px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    2px 2px 5px 1px rgba(50, 50, 50, 0.75);
+    box-shadow:         2px 2px 5px 1px rgba(50, 50, 50, 0.75);
+}
+
+.recipecardframe{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.recipelabel{
+    display: flex;
+    justify-content: space-between;
+    color: #236828;
+    align-items: center;
+    font-size: 20pt;
+    height: 30px;
+    margin-top: 11px;
+}
+
+.pagelabel img{
+    width: 50px;
+    height: 50px;
+}
+
+.foodimg{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.foodimg img{
+    width: 100%;
+}
+
+.recipelabel img{
+    width: 20px;
+}
+
+.readmore{
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+
+.readmore img{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
 }
