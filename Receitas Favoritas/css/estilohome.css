@@ -174,7 +174,7 @@ Adicione a estilização do conteúdo da página abaixo*/
     width: 100%;
     display: grid;
     grid-template-columns: 290px auto ;
-    height: 900px;
+    height: auto;
 }
 
 .menubox{
@@ -249,10 +249,12 @@ Adicione a estilização do conteúdo da página abaixo*/
     -webkit-box-shadow: 2px 2px 5px 1px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    2px 2px 5px 1px rgba(50, 50, 50, 0.75);
     box-shadow:         2px 2px 5px 1px rgba(50, 50, 50, 0.75);
+    background-color: white;
 }
 
 .contentframe{
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .pagelabel{
@@ -270,6 +272,7 @@ Adicione a estilização do conteúdo da página abaixo*/
     -webkit-box-shadow: 2px 2px 5px 1px rgba(50, 50, 50, 0.75);
     -moz-box-shadow:    2px 2px 5px 1px rgba(50, 50, 50, 0.75);
     box-shadow:         2px 2px 5px 1px rgba(50, 50, 50, 0.75);
+    margin-bottom: 20px;
 }
 
 .recipecardframe{
