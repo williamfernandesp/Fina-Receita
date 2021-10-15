@@ -297,13 +297,12 @@ Adicione a estilização do conteúdo da página abaixo*/
 }
 
 .foodimg{
-    width: 100%;
     display: flex;
     align-items: center;
 }
 
 .foodimg img{
-    width: 100%;
+    width: 300px;
 }
 
 .recipelabel img{
