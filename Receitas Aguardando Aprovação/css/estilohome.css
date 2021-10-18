@@ -317,6 +317,7 @@ Adicione a estilização do conteúdo da página abaixo*/
     display: flex;
     align-items: center;
     height: 10px;
+    color: #236828;
 }
 
 .readmore a{
