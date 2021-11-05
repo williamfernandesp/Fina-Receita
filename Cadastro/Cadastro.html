@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cadastro.css">
+    <title>FinaReceita</title>
+</head>
+
+<body>
+    <header>
+        <div class="topo">
+            <div>
+                <a href=""><img class="logoimg" src="img/FinaReceita.png" alt="logo"></a>
+            </div>
+
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..." />
+                <a href=""><img src="img/search.png" id="btnBusca" alt="Buscar" /></a>
+            </div>
+
+            <div class="conteudo">
+                <div class="headcards">
+                    <a href=""><img src="img/notes.png" alt="">
+                        <p class="headlabels">Envie sua receita</p>
+                    </a>
+                </div>
+
+                <div class="headcards">
+                    <a href=""><img src="img/edit.png" alt="">
+                        <p class="headlabels">Cadastre-se</p>
+                    </a>
+                </div>
+
+                <div class="headcards">
+                    <a href=""><img src="img/enter.png" alt="">
+                        <p class="headlabels">Entrar</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="subtop">
+        <div class="textsub" id="textesq">
+            <a href="#">
+                <p>Alimentação <br>Saudável</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Aves</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Bolos e <br> Tortas doces</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Carnes</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Doces e <br>sobremesas</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Lanches</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Light</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Massas</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Peixes e <br>Frutos do mar</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Saladas e <br>acompanhamentos</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Sopas</p>
+            </a>
+        </div>
+
+        <div class="textsubbold" id="textdir">
+            <a href="#">
+                <p>Todas as<br> receitas</p>
+            </a>
+        </div>
+
+    </div>
+
+    <!--Conteúdo da página-->
+
+<fieldset class='border'>
+    <nav>
+
+        <div class='bemvindo'>
+                <p><strong>Bem vindo !</strong></p>
+        </div>
+
+        <div class="email-name">
+
+            <div>
+                <input class='txtname' type="text" id="txtnome" placeholder="Nome" />
+            </div>
+            <div>
+                <input class='txtemail'type="email" id="txtemail" placeholder="E-mail" />
+            </div>
+        </div>
+
+        <div class='senha-confirm'>
+            
+            <div>
+                <input class='txtsenha' type="password" id="txtsenha" placeholder="Senha" />
+            </div>
+            <div>
+                <input class='txtconfirm' type="password" id="txtconfirm" placeholder="Confirme a senha" />
+            </div>
+
+        </div>
+
+    </nav>
+<br>
+    <nav>
+
+        <div class='data-loc'>
+
+            <div>
+                <p class='datetxt'>Data de Nascimento:</p>
+                <input class='date' type="date" id='date'>
+            </div>
+
+            <div>
+                
+                <p class='loctxt'>Localização:</p>
+
+                    <select class='loc' id="localização">
+                        <option>Brasil</option>
+                        <option>Estados Unidos</option>
+                        <option>França</option>
+                        <option>Reuino Unido</option>
+                        <option>Itália</option>
+                        <option>México</option>
+                    </select>
+
+            </div>
+            
+        </div>
+    </nav>
+<br>
+    <nav class='sex'>
+
+        <label class='sextxt'>Sexo</label>
+
+            <div class='point-group'>
+                
+                <label>
+                    <input class='point' type="radio" name='sexo' value='Masculino' checked>
+                    <sub class='txtpoint'>Feminino</sub>
+                </label>
+
+                <label>
+                    <input class='point' type="radio" name='sexo' value='Feminino'>
+                    <sub class='txtpoint'>Masculino</sub> 
+                </label>
+
+            </div>
+
+    </nav>
+<br>
+    <nav>
+
+            <p class='comidatxt'>Qual tipo de comida você mais gosta ?</p>
+
+                <select class='comida' id='comida'>
+                    <option>Alimentação Saudável</option>
+                    <option>Aves</option>
+                    <option>Bolos e Tortas doces</option>
+                    <option>Carnes</option>
+                    <option>Doces e sobremesas</option>
+                    <option>Lanches</option>
+                    <option>Light</option>
+                    <option>Massas</option>
+                    <option>Peixes e Frutos do mar</option>
+                    <option>Saladas e acompanhamentos</option>
+                    <option>Sopas</option>
+                </select>
+
+    </nav>
+<br>
+        <label>
+
+            <a href=''>
+                <p class='cadastrar'>Cadastrar</p>
+            </a>
+
+        </label>
+
+    </fieldset>
+
+    <!--Fim do conteúdo da página-->
+
+    <div class="rodape">
+
+        <div>
+            <h2>Seleção rápida</h2>
+            <a href="">
+                <p>Light</p>
+            </a>
+            <a href="">
+                <p>Microondas</p>
+            </a>
+            <a href="">
+                <p>Receitas Rápidas</p>
+            </a>
+            <a href="">
+                <p>Vegetarianas</p>
+            </a>
+        </div>
+
+        <div>
+            <h2>Sobre o Fina Receita</h2>
+            <a href="">
+                <p>Quem somos</p>
+            </a>
+            <a href="">
+                <p>Contato</p>
+            </a>
+        </div>
+
+
+
+        <div class="imgs">
+            <a href=""><img src="img/FinaReceita.png" alt="" id="logobot"></a>
+            <p>
+                <a href=""><img src="img/instagram-logo.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" alt=""></a>
+            </p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

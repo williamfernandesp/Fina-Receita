@@ -1,0 +1,431 @@
+@font-face {
+    font-family:'Jost';
+    src: url('fontes/Jost-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*topo*/
+.topo{
+    background-color: #DB0138;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.logoimg{
+    margin-left: 105px;
+    width: 250px;
+    padding-right: 15px;
+}
+
+.conteudo{
+    color:white;
+    display: flex;
+    text-align: center;
+    margin-right: 75px;
+    margin-left: 10px;
+}
+
+.conteudo img{
+    width: 35px;
+}
+
+.headcards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 0px;
+}
+
+.headlabels {
+    height: 0px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: center;
+}
+
+/*fimtopo*/
+
+/*subtopo*/
+.subtop{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #C60C34;
+    text-align: center;
+    height: 60px
+}
+
+.textsub{
+    color: white;
+    font-size: 15px;
+}
+
+.textsubbold{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#textesq{
+    margin-left: 105px;
+}
+
+#textdir{
+    margin-right: 105px;
+}
+/*fimsubtop*/
+
+/*busca*/
+#divBusca{
+    background-color:white;
+    border-radius:50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin: 0 auto;
+
+}
+#txtBusca:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#btnBusca{
+    background-color: #DB0138;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:15px;
+    font-style:'Jost', Helvetica, sans-serif;
+    font-size:18px;
+    border:none;
+    height:60px;
+    width:94%;
+}
+/*fim*/
+
+/*Conteudo*/
+body{
+    background-color: #F0F0F0;
+}
+
+.bemvindo{
+    color: #236828;
+    font-size: 25px;
+    font-family: 'Jost', Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin:0 auto;
+}
+
+.border{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 20px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 3px #707070;
+}
+
+/*Nome e E-mail*/
+
+.email-name{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtname {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border:none;
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    height: 45px;
+    width: 300px;
+    padding-left: 20px;
+    margin-right:30px;
+    font-size: 18px;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+.txtemail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:30px;
+    border:none;
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    height: 45px;
+    width: 300px;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+/*Nome e E-mail*/
+
+/*Senha e Confirme*/
+
+.senha-confirm{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.txtsenha{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border:none;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    height: 45px;
+    width: 300px;
+    padding-left: 20px;
+    margin-right:30px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+.txtconfirm{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    border:none;
+    height: 45px;
+    width: 300px;
+    padding-left: 20px;
+    margin-left:30px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+/*Senha e Confirme*/
+
+/*Data e Localização*/
+
+.data-loc{
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.datetxt{
+    font-size: 20px;
+    color: #236828;
+}
+.date{
+    border:none;
+    background-color: #E3FFE5;
+    border-radius: 20px;
+    height: 45px;
+    width: 295px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right:30px;
+    font-size: 18px;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+.loctxt{
+    margin-left:30px;
+    color: #236828;
+    font-size: 20px;
+}
+
+.loc{
+    border:none;
+    background-color:#E3FFE5;
+    border-radius: 20px;
+    height: 45px;
+    width: 325px;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left:30px;
+    font-size: 18px;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+.sextxt{
+    display: inline-flex;
+    position:absolute;
+    margin-left: 56px;
+    font-size: 20px;
+    color: #236828;
+}
+
+.sex{
+    display: inline-flex;
+    flex-wrap: wrap;
+    position: relative;
+    margin-right: 480px;
+}
+
+.point-group{
+    margin-top: 30px;
+    display: inline;
+    align-items:center;
+}
+
+.point{
+    margin-left: 60px;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+    border:none;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    background-color: #F0F0F0;
+}
+
+.point:before {
+    content:'';
+    position:absolute;
+    height: 20px;
+    width: 20px;
+    background-color: #236828;
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.point:checked:before {
+    opacity: 1;
+}
+
+.txtpoint{
+    font-size: 18px;
+    color: #236828;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Data, Localização e Sexo*/
+
+/*Comida Favorita*/
+
+.comidatxt{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    color: #236828;
+}
+
+.comida{
+    margin-left: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    width: 720px;
+    border:none;
+    background-color: #E3FFE5;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 18px;
+    font-family: 'Jost', Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cadastrar{
+    text-align: center;
+    width: 350px;
+    height: 45px;
+    background-color: #4EB556;
+    color: white;
+    border-style: hidden;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: 'Jost', Helvetica, sans-serif;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+/*Fim do Conteudo*/
+
+/*rodape*/
+.rodape{
+    color:white;
+    display: flex;
+    background-color: #DB0138;
+    justify-content: space-around;
+    font-size: 15px;
+    align-self: flex-end;
+}
+
+#logobot{
+    width:100%;
+}
+.caixa{
+    display: flex;
+}
+.imgs{
+    align-self:initial;
+    width: 20%;
+    padding-top: 20px;
+}
+.imgs img{
+    width: 15%;
+}
+
+/*fimrodape*/
+
+
+/* Tudo o que está acima não deve ser alterado
+
+Adicione a estilização do conteúdo da página abaixo*/

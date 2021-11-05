@@ -1,0 +1,263 @@
+@font-face {
+    font-family:'Jost';
+    src: url('fontes/Jost-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*topo*/
+.topo{
+    background-color: #DB0138;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.logoimg{
+    margin-left: 105px;
+    width: 250px;
+    padding-right: 15px;
+}
+
+.conteudo{
+    color:white;
+    display: flex;
+    text-align: center;
+    margin-right: 75px;
+    margin-left: 10px;
+}
+
+.conteudo img{
+    width: 35px;
+}
+
+.headcards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-inline: 0px;
+}
+
+.headlabels {
+    height: 0px;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    justify-content: center;
+}
+
+/*fimtopo*/
+/*Conteudo*/
+
+body{
+    background-color: #F0F0F0;
+}
+
+.fieldser-border{
+    border: 0px;
+    border-radius: 20px;
+    height: 600px;
+    background-color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow:1px 1px 2px 1px rgba(50, 50, 50, 0.75);
+}
+
+.ptitel{
+    font-size: 30px;
+    color: #236828;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+.inputsenha{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 370px;
+    height: 50px;
+    padding: 3px;
+    padding-left: 20px;
+    background-color: #F0F0F0;
+    color: #E3FFE5;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+.inputemail{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    width: 370px;
+    height: 50px;
+    padding: 3px;
+    padding-left: 20px;
+    background-color: #F0F0F0;
+    color: #E3FFE5;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+.button-entrar{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 250px;
+    height: 50px;
+    padding: 3px;
+    background-color: #4EB556;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    font-size: 30px;
+    font-family: 'Jost', Helvetica, sans-serif;
+}
+
+.senha-conta{
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #236828;
+}
+
+.hr1{
+    width: 200px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.box-senha{
+    margin-top: 150px;
+}
+
+/*Fim Conteudo*/
+/*subtopo*/
+.subtop{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #C60C34;
+    text-align: center;
+    height: 60px
+}
+
+.textsub{
+    color: white;
+    font-size: 15px;
+}
+
+.textsubbold{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#textesq{
+    margin-left: 105px;
+}
+
+#textdir{
+    margin-right: 105px;
+}
+/*fimsubtop*/
+
+/*busca*/
+#divBusca{
+    background-color:white;
+    border-radius:50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    margin: 0 auto;
+
+}
+#txtBusca:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#btnBusca{
+    background-color: #DB0138;
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+}
+
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:15px;
+    font-style:'Jost', Helvetica, sans-serif;
+    font-size:18px;
+    border:none;
+    height:60px;
+    width:94%;
+}
+/*fim*/
+
+/*rodape*/
+.rodape{
+    color:white;
+    display: flex;
+    background-color: #DB0138;
+    justify-content: space-around;
+    font-size: 15px;
+    align-self: flex-end;
+}
+
+#logobot{
+    width:100%;
+}
+.caixa{
+    display: flex;
+}
+.imgs{
+    align-self:initial;
+    width: 20%;
+    padding-top: 20px;
+}
+.imgs img{
+    width: 15%;
+}
+
+/*fimrodape*/
+
+
+/* Tudo o que está acima não deve ser alterado
+
+Adicione a estilização do conteúdo da página abaixo*/
