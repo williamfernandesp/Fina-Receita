@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/estiloHome.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <script>
+        function initAOS() {
+
+            window.swiper = new Swiper({
+                el: '.swiper',
+                slideToClickedSlide: true,                          
+                createElements: true,
+                speed: 1200,
+                pagination: true,
+                navigation: true,
+                spaceBetween: 1,
+                autoplay: {
+                    delay: 1500,
+                    disableOnInteraction: false,
+                },
+            });
+
+            GLightbox();
+
+            AOS.init({
+                duration: 1200,
+            })
+        }
+
+    </script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .item {
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+            padding-top: 75px;
+            text-align: center;
+            color: black;
+            font-size: 3em;
+        }
+    </style>
+
+    <title>FinaReceita</title>
+
+</head>
+
+<body onload="initAOS()">
+    <header>
+        <div class="topo">
+            <div>
+                <a href=""><img class="logoimg" src="img/FinaReceita.png" alt="logo"></a>
+            </div>
+
+            <div id="divBusca">
+                <input type="text" id="txtBusca" placeholder="Buscar..." />
+                <a href=""><img src="img/search.png" id="btnBusca" alt="Buscar" /></a>
+            </div>
+
+            <div class="conteudo">
+                <div class="headcards">
+                    <a href=""><img src="img/notes.png" alt="">
+                        <p class="headlabels">Envie sua receita</p>
+                    </a>
+                </div>
+
+                <div class="headcards">
+                    <a href=""><img src="img/edit.png" alt="">
+                        <p class="headlabels">Cadastre-se</p>
+                    </a>
+                </div>
+
+                <div class="headcards">
+                    <a href=""><img src="img/enter.png" alt="">
+                        <p class="headlabels">Entrar</p>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="subtop">
+        <div class="textsub" id="textesq">
+            <a href="#">
+                <p>Alimentação <br>Saudável</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Aves</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Bolos e <br> Tortas doces</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Carnes</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Doces e <br>sobremesas</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Lanches</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Light</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Massas</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Peixes e <br>Frutos do mar</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Saladas e <br>acompanhamentos</p>
+            </a>
+        </div>
+
+        <div class="textsub">
+            <a href="#">
+                <p>Sopas</p>
+            </a>
+        </div>
+
+        <div class="textsubbold" id="textdir">
+            <a href="#">
+                <p>Todas as<br> receitas</p>
+            </a>
+        </div>
+
+    </div>
+
+    <!--Conteúdo da página-->
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img class="imgsAos" src="./img/promo_1.png" />
+            </div>
+            <div class="swiper-slide">
+                <img class="imgsAos" src="./img/promo_2.png" />
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="item" data-aos="fade-up">
+        <a href="./img/img_pratos/espetos/espeto.jpg" class="glightbox">
+            <img class="imgsAos" src="./img/img_pratos/espetos/espeto.jpg" />
+        </a>
+    </div>
+    <div class="item" data-aos="fade-down">
+        <a href="./img/img_pratos/Feijoada/feijoada2.jpg" class="glightbox">
+            <img class="imgsAos" src="./img/img_pratos/Feijoada/feijoada2.jpg" />
+        </a>
+    </div>
+    <div class="item" data-aos="fade-left">
+        <a href="./img/img_pratos/Hot dog/hot dog.jpg" class="glightbox">
+            <img class="imgsAos" src="./img/img_pratos/Hot dog/hot dog.jpg" />
+        </a>
+    </div>
+    <div class="item" data-aos="zoom-out">
+        <a href="./img/img_pratos/lasanha/lasanha.jpg" class="glightbox">
+            <img class="imgsAos" src="./img/img_pratos/lasanha/lasanha.jpg" />
+        </a>
+    </div>
+    <div class="item" data-aos="slide-up">
+        <a href="./img/img_pratos/macarrão/macarrão.jpg" class="glightbox">
+            <img class="imgsAos" src="./img/img_pratos/macarrão/macarrão.jpg" />
+        </a>
+    </div>
+    <div class="item" data-aos="flip-up">
+        <a href="./img/img_pratos/pizza/pizza-mussarela.jpg" class="glightbox">
+            <img class="imgsAos" src="./img/img_pratos/pizza/pizza-mussarela.jpg" />
+        </a>
+    </div>
+    <div class="item" data-aos="flip-up">
+        <a href="./img/img_pratos/sushi/sushi.jpg" class="glightbox">
+            <img class="imgsAos" src="./img/img_pratos/sushi/sushi.jpg" />
+        </a>
+    </div>
+
+
+    <!--Fim do conteúdo da página-->
+
+    <div class="rodape">
+
+        <div>
+            <h2>Seleção rápida</h2>
+            <a href="">
+                <p>Light</p>
+            </a>
+            <a href="">
+                <p>Microondas</p>
+            </a>
+            <a href="">
+                <p>Receitas Rápidas</p>
+            </a>
+            <a href="">
+                <p>Vegetarianas</p>
+            </a>
+        </div>
+
+        <div>
+            <h2>Sobre o Fina Receita</h2>
+            <a href="">
+                <p>Quem somos</p>
+            </a>
+            <a href="FinaReceitaContato.html">
+                <p>Contato</p>
+            </a>
+        </div>
+
+
+
+        <div class="imgs">
+            <a href=""><img src="img/FinaReceita.png" alt="" id="logobot"></a>
+            <p>
+                <a href=""><img src="img/instagram-logo.png" alt=""></a>
+                <a href=""><img src="img/facebook.png" alt=""></a>
+            </p>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
